@@ -2,10 +2,15 @@
   "name": "edtech-platform",
   "version": "1.0.0",
   "description": "I'm building my first web project, an educational tech platform.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Nihal Gound, Shivam Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
 }
